@@ -1,0 +1,64 @@
+.header {
+  padding: 21px 26px 0 26px;
+  margin-bottom: 25px;
+}
+
+.header__wrapper {
+  position: relative;
+  background: url('../assets/img/headerBG.jfif') no-repeat center center/cover;
+  border-radius: 15px;
+  padding-bottom: 33px;
+}
+
+.header__wrapper::after {
+  content: '';
+  position: absolute;
+  top: 35px;
+  right: 4.3vw;
+  width: 245px;
+  height: 320px;
+
+  background: url('../assets/img/svg/headerPictureDesktop.svg') no-repeat center center/cover;
+}
+
+.header__list {
+  padding: 33px 0 0 106px;
+  margin-bottom: 34px;
+}
+
+.header__item:nth-of-type(1) {
+  margin-bottom: 9px;
+}
+
+.header__item:nth-of-type(2) {
+  margin-bottom: 63px;
+}
+
+.header__item:nth-of-type(3) {
+  margin-bottom: 15px;
+}
+
+.header__logo-text {
+  font-family: Bicubik;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.2px;
+}
+
+.header__heading {
+  font-family: Wadik;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 28.76px;
+}
+
+.header__subheading {
+  font-family: Wadik;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 19.91px;
+}
+
+.header__partners-wrapper {
+  padding-left: 88px;
+}
