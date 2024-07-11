@@ -1,0 +1,338 @@
+.projects-invested {
+  padding: 0 26px;
+}
+
+.projects-invested__wrapper {
+  isolation: isolate;
+  position: relative;
+  background: url('../assets/img/projectsInvestedBG.jfif') no-repeat center center/cover;
+  border-radius: 15px;
+  padding: 84px 0 68px 108px;
+  overflow: hidden;
+}
+
+.projects-invested__wrapper::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: url('../assets/img/projectsInvestedCardsBG.svg') no-repeat bottom;
+  z-index: -5;
+}
+
+.projects-invested__heading {
+  margin-bottom: 12px;
+
+  font-family: Wadik;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 33.18px;
+}
+
+.projects-invested__subheading {
+  margin-bottom: 52px;
+  font-family: Geologica;
+  font-size: 18px;
+  font-weight: 250;
+  line-height: 19.8px;
+}
+
+.projects-invested__custom-font-weight {
+  font-weight: 500;
+}
+
+.projects-invested__cards-list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 23px;
+  margin-bottom: 48px;
+}
+
+.projects-invested__cards-item {
+  position: relative;
+  width: 376px;
+  height: 186px;
+  padding: 13px 0 0 23px;
+}
+
+.projects-invested__cards-item-blur {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 376px;
+  height: 186px;
+
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    clip-path: polygon(
+      0 0,
+      100% 0,
+      100% 88%,
+      89.4% 88%,
+      84.6% 100%,
+      0 100%
+    );
+}
+
+
+/* .projects-invested__cards-item-blur {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 84%;
+  height: 14%;
+  background-color: rgba(22, 23, 39, 0.45);
+  backdrop-filter: blur(16px);
+  z-index: -2;
+}
+
+.projects-invested__cards-item-blur::before {
+  content: '';
+  position: absolute;
+  bottom: 4px;
+  right: -12px;
+  width: 5%;
+  height: 109%;
+  background-color: rgba(22, 23, 39, 0.45);
+  backdrop-filter: blur(16px);
+  z-index: -2;
+  transform: rotate(39deg);
+} */
+
+
+
+
+/* svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(16px);
+  clip-path: polygon(0 0, 0 100%, 319px 100%, 336px 164px, 100% 164px, 100% 0);
+} */
+
+/* .test2 {
+width: 376px;
+height: 186px;
+clip-path: polygon(0 0, 0 100%, 319px 100%, 336px 164px, 100% 164px, 100% 0);
+
+}
+
+.test2 img {
+  
+  fill: rgba(22, 23, 39, 0.45);
+stroke-width: 1.63px;
+stroke: rgba(255, 255, 255, 0.12);
+backdrop-filter: blur(16.31955337524414px);
+} */
+
+
+/* .wrap {
+  clip-path: polygon(0 0, 0 100%, 319px 100%, 336px 164px, 100% 164px, 100% 0);
+  overflow: hidden;
+}
+
+.test2 {
+  fill: rgba(22, 23, 39, 0.45);
+  stroke-width: 1.63px;
+  stroke: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(16.31955337524414px);
+  clip-path: polygon(0 0, 0 100%, 319px 100%, 336px 164px, 100% 164px, 100% 0);
+} */
+
+.projects-invested__cards-item::after {
+  content: '';
+  position: absolute;
+  top: 49px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: rgba(206, 206, 206, 0.12);
+}
+
+.projects-invested__cards-item:nth-of-type(1) {
+  margin-right: 23px;
+}
+
+.projects-invested__cards-item:nth-of-type(2) {
+  padding: 14px 0 0 24px;
+  margin-right: 24px;
+}
+
+.projects-invested__cards-item:nth-of-type(3) {
+  padding: 10px 0 0 26px;
+}
+
+.projects-invested__cards-item:nth-of-type(4) {
+  margin-right: 27px;
+  padding: 19px 0 0 26px;
+}
+
+.projects-invested__cards-item:nth-of-type(5) {
+  padding: 4px 0 0 13px;
+  margin-right: 20px;
+}
+
+.projects-invested__cards-item:nth-of-type(6) {
+  padding: 9px 0 0 15px;
+}
+
+.projects-invested__cards-item img {
+  margin-bottom: 31px;
+}
+
+.projects-invested__cards-item:nth-of-type(4) img {
+  margin-bottom: 36px;
+}
+
+.projects-invested__cards-item:nth-of-type(5) img {
+  margin-bottom: 24px;
+}
+
+.projects-invested__cards-item:nth-of-type(6) img {
+  margin-bottom: 27px;
+}
+
+
+.projects-invested__cards-text {
+  position: relative;
+  padding-left: 30px;
+  font-family: Geologica;
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 17.6px;
+}
+
+.projects-invested__cards-text:nth-of-type(1) {
+  margin-bottom: 15px;
+}
+
+.projects-invested__cards-text:nth-of-type(2) {
+  margin-bottom: 16px;
+}
+
+.projects-invested__cards-item:nth-of-type(3) p,
+.projects-invested__cards-item:nth-of-type(4) p {
+  padding-left: 28px;
+}
+
+.projects-invested__cards-item:nth-of-type(5) p {
+  padding-left: 40px;
+}
+
+.projects-invested__cards-item:nth-of-type(6) p {
+  padding-left: 38px;
+}
+
+
+.projects-invested__cards-text:nth-of-type(1)::before {
+  content: '';
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  width: 23px;
+  height: 23px;
+  background: url('../assets/img/svg/projectsInvestedDollarSign.svg') no-repeat;
+}
+
+.projects-invested__cards-text:nth-of-type(2)::before {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 16px;
+  height: 16px;
+  background: url('../assets/img/svg/projectsInvestedCalendar.svg') no-repeat;
+}
+
+.projects-invested__cards-text:nth-of-type(3)::before {
+  content: '';
+  position: absolute;
+  top: 3px;
+  left: 2px;
+  width: 15px;
+  height: 15px;
+  background: url('../assets/img/svg/projectsInvestedDollarBag.svg') no-repeat;
+}
+
+.projects-invested__cards-item:nth-of-type(2) .projects-invested__cards-text:nth-of-type(1)::before {
+  left: 0px;
+}
+
+.projects-invested__cards-item:nth-of-type(2) .projects-invested__cards-text:nth-of-type(2)::before {
+  left: 1px;
+}
+
+.projects-invested__cards-item:nth-of-type(2) .projects-invested__cards-text:nth-of-type(3)::before {
+  top: 3px;
+  left: 1px;
+}
+
+.projects-invested__cards-item:nth-of-type(3) .projects-invested__cards-text:nth-of-type(1)::before {
+  top: 0px;
+  left: -2px;
+}
+
+.projects-invested__cards-item:nth-of-type(3) .projects-invested__cards-text:nth-of-type(2)::before {
+  top: 1px;
+  left: -1px;
+}
+
+.projects-invested__cards-item:nth-of-type(3) .projects-invested__cards-text:nth-of-type(3)::before {
+  top: 2px;
+  left: -1px;
+}
+
+
+.projects-invested__cards-item:nth-of-type(4) .projects-invested__cards-text:nth-of-type(1)::before {
+  top: 0px;
+  left: -2px;
+}
+
+.projects-invested__cards-item:nth-of-type(4) .projects-invested__cards-text:nth-of-type(2)::before {
+  top: 1px;
+  left: -1px;
+}
+
+.projects-invested__cards-item:nth-of-type(4) .projects-invested__cards-text:nth-of-type(3)::before {
+  top: 2px;
+  left: -1px;
+}
+
+.projects-invested__cards-item:nth-of-type(5) .projects-invested__cards-text:nth-of-type(1)::before {
+  top: 1px;
+  left: 11px;
+}
+
+.projects-invested__cards-item:nth-of-type(5) .projects-invested__cards-text:nth-of-type(2)::before {
+  top: 2px;
+  left: 12px;
+}
+
+.projects-invested__cards-item:nth-of-type(5) .projects-invested__cards-text:nth-of-type(3)::before {
+  top: 3px;
+  left: 12px;
+}
+
+
+
+.projects-invested__cards-item:nth-of-type(6) .projects-invested__cards-text:nth-of-type(1)::before {
+  left: 9px;
+}
+
+.projects-invested__cards-item:nth-of-type(6) .projects-invested__cards-text:nth-of-type(2)::before {
+  left: 10px;
+}
+
+.projects-invested__cards-item:nth-of-type(6) .projects-invested__cards-text:nth-of-type(3)::before {
+  left: 10px;
+}
+
+.projects-invested__footer-text {
+  font-family: Wadik;
+font-size: 22px;
+font-weight: 700;
+line-height: 24.33px;
+
+}
