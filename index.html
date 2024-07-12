@@ -10,28 +10,46 @@
     <header>
       <section class="header">
         <div class="header__wrapper">
-          <ul class="header__list">
-            <li class="header__item">
-              <img src="./assets/img/svg/headerLogo.svg" alt="логотип компании" />
-            </li>
-            <li class="header__item">
-              <p class="header__logo-text">
-                ПРОЕКТ КОМПАНИИ 100 FRANKLINS –
-                <span class="text-selection">SMART WEB3 INVEST</span>
-              </p>
-            </li>
-            <li class="header__item">
-              <h1 class="header__heading text-selection">
-                Инвестиции в криптопроекты<br />
-                на ранних стадиях (до их выхода на биржу)
-              </h1>
-            </li>
-            <li class="header__item">
-              <h2 class="header__subheading">вместе с ведущими инвестиционными фондами</h2>
-            </li>
-          </ul>
-          <div class="header__partners-wrapper">
-            <img src="./assets/img/svg/listOfPartners.svg" alt="список партнёров" />
+          <div class="header__container">
+            <ul class="header__list">
+              <li class="header__item">
+                <img src="./assets/img/svg/headerLogo.svg" alt="логотип компании" />
+              </li>
+              <li class="header__item">
+                <p class="header__logo-text header__logo-text-desktop">
+                  ПРОЕКТ КОМПАНИИ 100 FRANKLINS –
+                  <span class="text-selection">SMART WEB3 INVEST</span>
+                </p>
+                <p class="header__logo-text header__logo-text-mobile">
+                  ПРОЕКТ КОМПАНИИ 100 FRANKLINS<br />
+                  – SMART WEB3 INVEST
+                </p>
+              </li>
+              <li class="header__item">
+                <h1 class="header__heading header__heading-desktop text-selection">
+                  Инвестиции в криптопроекты<br />
+                  на ранних стадиях (до их выхода на биржу)
+                </h1>
+                <h1 class="header__heading header__heading-mobile text-selection">
+                  Инвестиции<br />
+                  в криптопроекты<br />
+                  на ранних стадиях<br />
+                  (до их выхода на биржу)
+                </h1>
+              </li>
+              <li class="header__item">
+                <h2 class="header__subheading">вместе с ведущими инвестиционными фондами</h2>
+              </li>
+            </ul>
+            <div class="header__partners-wrapper">
+              <picture>
+                <source media="(min-width: 831px)" srcset="./assets/img/svg/listOfPartners.svg" />
+                <source
+                  media="(max-width: 830px)"
+                  srcset="./assets/img/svg/listOfPartnersMobile.svg" />
+                <img src="./assets/img/svg/listOfPartners.svg" alt="List of Partners" />
+              </picture>
+            </div>
           </div>
         </div>
       </section>
@@ -40,126 +58,185 @@
     <main>
       <section class="introduction">
         <div class="introduction__wrapper">
-          <h2 class="introduction__heading">
-            SMART <span class="text-selection">WEB3 INVEST</span>
-          </h2>
-          <p class="introduction__subheading">
-            С 2022 года мы как команда 100 Franklins сфокусированно развиваемся в сфере
-            инвестиционных раундов. Благодаря 10-летнему партнерскому опыту в маркетинге,
-            технической и продуктовой экспертизе – у нас есть отлаженный входящий поток
-            криптопроектов уровня Tier 1-4
-          </p>
-          <ul class="introduction__list">
-            <li class="introduction__item">
-              <p class="text-selection">320-370</p>
-              <p>проектов в год поступает в среднем</p>
-            </li>
-            <li class="introduction__item">
-              <p class="text-selection">в 60-75 проектов</p>
-              <p>Инвестируем в течение 12 месяцев</p>
-            </li>
-            <li class="introduction__item">
-              <p class="text-selection">+500% на капитал</p>
-              <p>Средний годовой результат 100F</p>
-            </li>
-          </ul>
-          <p class="introduction__footer-text">
-            Благодаря профессиональной аналитике и тщательному отбору криптопроектов нам удается
-            <span class="introduction__footer-text-custom-font text-selection"
-              >в кратчайшие сроки вернуть тело вложенных инвестиций и далее получать прибыль</span
-            >
-          </p>
+          <div class="introduction__container">
+            <h2 class="introduction__heading introduction__heading-desktop">
+              SMART <span class="text-selection">WEB3 INVEST</span>
+            </h2>
+            <h2 class="introduction__heading introduction__heading-mobile">
+              SMART<br />
+              <span class="text-selection">WEB3 INVEST</span>
+            </h2>
+            <p class="introduction__subheading introduction__subheading-desktop">
+              С 2022 года мы как команда 100 Franklins сфокусированно развиваемся в сфере
+              инвестиционных раундов. Благодаря 10-летнему партнерскому опыту в маркетинге,
+              технической и продуктовой экспертизе – у нас есть отлаженный входящий поток
+              криптопроектов уровня Tier 1-4
+            </p>
+            <p class="introduction__subheading introduction__subheading-mobile">
+              С 2022 года мы как команда 100 Franklins<br />
+              сфокусированно развиваемся в сфере<br />
+              инвестиционных раундов. Благодаря<br />
+              10-летнему партнерскому опыту<br />
+              в маркетинге, технической и продуктовой<br />
+              экспертизе – у нас есть отлаженный<br />
+              входящий поток криптопроектов<br />
+              уровня Tier 1-4
+            </p>
+            <ul class="introduction__list">
+              <li class="introduction__item">
+                <p class="text-selection">320-370</p>
+                <p>проектов в год поступает в среднем</p>
+              </li>
+              <li class="introduction__item">
+                <p class="text-selection">в 60-75 проектов</p>
+                <p>Инвестируем в течение 12 месяцев</p>
+              </li>
+              <li class="introduction__item">
+                <p class="text-selection">+500% на капитал</p>
+                <p>Средний годовой результат 100F</p>
+              </li>
+            </ul>
+            <p class="introduction__footer-text">
+              Благодаря профессиональной аналитике и тщательному отбору криптопроектов нам удается
+              <span class="introduction__footer-text-custom-font text-selection"
+                >в кратчайшие сроки вернуть тело вложенных инвестиций и далее получать прибыль</span
+              >
+            </p>
+          </div>
         </div>
       </section>
 
       <section class="project-info">
         <div class="project-info__wrapper">
-          <h2 class="project-info__heading">
-            Как мы получаем <span class="text-selection">доступ к проектам?</span>
-          </h2>
-          <p class="project-info__text">
-            Вся наша деятельность построена на двух основаниях:
-            <span class="project-info__custom-font-weight text-selection"
-              >экспертиза и нетворкинг</span
-            >
-          </p>
-          <p class="project-info__subheading text-selection">
-            На сегодняшний день крипто-экосистема 100F управляет:
-          </p>
-          <div class="project-info__cards-wrapper">
-            <ul class="project-info__first-card-list">
-              <li class="project-info__first-card-item">
-                <p>Публичной аудиторией</p>
+          <div class="project-info__container">
+            <h2 class="project-info__heading">
+              Как мы получаем <span class="text-selection">доступ к проектам?</span>
+            </h2>
+            <p class="project-info__text">
+              Вся наша деятельность построена на двух основаниях:
+              <span class="project-info__custom-font-weight text-selection"
+                >экспертиза и нетворкинг</span
+              >
+            </p>
+            <p class="project-info__subheading text-selection">
+              На сегодняшний день крипто-экосистема 100F управляет:
+            </p>
+            <div class="project-info__cards-wrapper">
+              <ul class="project-info__first-card-list">
+                <li class="project-info__first-card-item">
+                  <p>Публичной аудиторией</p>
+                </li>
+                <li class="project-info__first-card-item">
+                  <p>200К+</p>
+                  <p>подписчиков</p>
+                </li>
+                <li class="project-info__first-card-item">
+                  <p>250К+</p>
+                  <p>аудитории в Телеграм-ботах</p>
+                </li>
+                <li class="project-info__first-card-item">
+                  <p>150К+</p>
+                  <p>аудитории в блоге</p>
+                </li>
+              </ul>
+              <ul class="project-info__second-card-list">
+                <li class="project-info__second-card-item">
+                  <p>Приватной аудиторией</p>
+                </li>
+                <li class="project-info__second-card-item">
+                  <p>100+</p>
+                  <p>инвестиционных лидеров мнений</p>
+                </li>
+                <li class="project-info__second-card-item">
+                  <p>200+</p>
+                  <p>приватных инвесторов</p>
+                </li>
+                <li class="project-info__second-card-item">
+                  <p>100+ млн</p>
+                  <p>охват</p>
+                </li>
+              </ul>
+            </div>
+            <ul class="project-info__list">
+              <li class="project-info__item">
+                <img src="./assets/img/svg/projectInfoWorldConnection.svg" alt="" />
+                <p class="project-info__item-text-desktop">
+                  Кроме того, мы создали и развили<br />
+                  2 крупные команды — по 100+ человек<br />
+                  каждая, которые участвуют<br />
+                  в тестировании, улучшении<br />
+                  и продвижении качественных<br />
+                  криптопроектов на рынке
+                </p>
+                <p class="project-info__item-text-mobile">
+                  Кроме того, мы создали и развили<br />
+                  2 крупные команды — по 100+<br />
+                  человек каждая, которые участвуют<br />
+                  в тестировании, улучшении<br />
+                  и продвижении качественных<br />
+                  криптопроектов на рынке
+                </p>
               </li>
-              <li class="project-info__first-card-item">
-                <p>200К+</p>
-                <p>подписчиков</p>
+              <li class="project-info__item">
+                <picture>
+                  <source
+                    media="(min-width: 591px)"
+                    srcset="./assets/img/svg/projectInfoExperience.svg" />
+                  <source
+                    media="(max-width: 590px)"
+                    srcset="./assets/img/svg/projectInfoExperienceMobile.svg" />
+                  <img src="./assets/img/svg/projectInfoExperience.svg" alt="" />
+                </picture>
+                <p class="project-info__item-text-desktop">
+                  Весь наш опыт и вклад в крипторынок —<br />
+                  не просто привлекает сотни проектов,<br />
+                  но и позволяет получать эксклюзивные<br />
+                  условия инвестирования, часто на<br />
+                  уровне с такими фондами, как Sequoia<br />
+                  Capital, Binance, a16z, Coinbase Ventures
+                </p>
+                <p class="project-info__item-text-mobile">
+                  Весь наш опыт и вклад<br />
+                  в крипторынок — не просто<br />
+                  привлекает сотни проектов,<br />
+                  но и позволяет получать<br />
+                  эксклюзивные условия<br />
+                  инвестирования, часто на уровне<br />
+                  с такими фондами, как Sequoia Capital,<br />
+                  Binance, a16z, Coinbase Ventures
+                </p>
               </li>
-              <li class="project-info__first-card-item">
-                <p>250К+</p>
-                <p>аудитории в Телеграм-ботах</p>
-              </li>
-              <li class="project-info__first-card-item">
-                <p>150К+</p>
-                <p>аудитории в блоге</p>
-              </li>
-            </ul>
-            <ul class="project-info__second-card-list">
-              <li class="project-info__second-card-item">
-                <p>Приватной аудиторией</p>
-              </li>
-              <li class="project-info__second-card-item">
-                <p>100+</p>
-                <p>инвестиционных лидеров мнений</p>
-              </li>
-              <li class="project-info__second-card-item">
-                <p>200+</p>
-                <p>приватных инвесторов</p>
-              </li>
-              <li class="project-info__second-card-item">
-                <p>100+ млн</p>
-                <p>охват</p>
+              <li class="project-info__item">
+                <picture>
+                  <source
+                    media="(min-width: 591px)"
+                    srcset="./assets/img/svg/projectInfoCards.svg" />
+                  <source
+                    media="(max-width: 590px)"
+                    srcset="./assets/img/svg/projectInfoCardsMobile.svg" />
+                  <img src="./assets/img/svg/projectInfoCards.svg" alt="" />
+                </picture>
+                <p class="project-info__item-text-desktop">
+                  А наша команда инвестиционных<br />
+                  аналитиков — отбирает из них те<br />
+                  самые «бриллианты», с которыми мы<br />
+                  знакомим наше рейтинговое<br />
+                  сообщество инвесторов
+                </p>
+                <p class="project-info__item-text-mobile">
+                  А наша команда инвестиционных<br />
+                  аналитиков — отбирает из них те<br />
+                  самые «бриллианты», с которыми<br />
+                  мы знакомим наше рейтинговое<br />
+                  сообщество инвесторов
+                </p>
               </li>
             </ul>
           </div>
-          <ul class="project-info__list">
-            <li class="project-info__item">
-              <img src="./assets/img/svg/projectInfoWorldConnection.svg" alt="" />
-              <p>
-                Кроме того, мы создали и развили<br />
-                2 крупные команды — по 100+ человек<br />
-                каждая, которые участвуют<br />
-                в тестировании, улучшении<br />
-                и продвижении качественных<br />
-                криптопроектов на рынке
-              </p>
-            </li>
-            <li class="project-info__item">
-              <img src="./assets/img/svg/projectInfoExperience.svg" alt="" />
-              <p>
-                Весь наш опыт и вклад в крипторынок —<br />
-                не просто привлекает сотни проектов,<br />
-                но и позволяет получать эксклюзивные<br />
-                условия инвестирования, часто на<br />
-                уровне с такими фондами, как Sequoia<br />
-                Capital, Binance, a16z, Coinbase Ventures
-              </p>
-            </li>
-            <li class="project-info__item">
-              <img src="./assets/img/svg/projectInfoCards.svg" alt="" />
-              <p>
-                А наша команда инвестиционных<br />
-                аналитиков — отбирает из них те<br />
-                самые «бриллианты», с которыми мы<br />
-                знакомим наше рейтинговое<br />
-                сообщество инвесторов
-              </p>
-            </li>
-          </ul>
         </div>
       </section>
 
-      <section class="investments">
+      <!-- <section class="investments">
         <div class="investments__wrapper">
           <h2 class="investments__heading">Как происходит процесс инвестиций в криптопроекты?</h2>
           <ul class="investments__list">
@@ -229,9 +306,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
-      <section class="projects-invested">
+      <!-- <section class="projects-invested">
         <div class="projects-invested__wrapper">
           <h2 class="projects-invested__heading">
             <span class="text-selection">В какие проекты</span> мы уже инвестировали?
@@ -242,9 +319,6 @@
           </p>
           <ul class="projects-invested__cards-list">
             <li class="projects-invested__cards-item">
-              <!-- <div class='projects-invested__cards-item-blur'>
-
-              </div> -->
               <img src="./assets/img/svg/projectsInvestedChainGPT.svg" alt="" />
               <p class="projects-invested__cards-text">Цена токена на входе: $0.008</p>
               <p class="projects-invested__cards-text">Возврат тела инвестиций: 1 месяц</p>
@@ -290,9 +364,9 @@
             бурный рост, а мы ожидаем лучшего результата!
           </p>
         </div>
-      </section>
+      </section> -->
 
-      <section class="participation">
+      <!-- <section class="participation">
         <div class="participation__wrapper">
           <h2 class="participation__heading">
             <span class="text-selection">Как участвовать</span> в инвестраундах?
@@ -361,10 +435,10 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
     </main>
 
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="footer__wrapper">
         <div class="footer__container">
           <div class='footer__text-wrapper'>
@@ -373,6 +447,6 @@
           </div>
         </div>
       </div>
-    </footer>
+    </footer> -->
   </body>
 </html>

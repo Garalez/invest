@@ -18,7 +18,7 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  background: url('../assets/img/projectsInvestedCardsBG.svg') no-repeat bottom;
+  background: url('../assets/img/svg/projectsInvestedCardsBG.svg') no-repeat bottom;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   z-index: -5;
