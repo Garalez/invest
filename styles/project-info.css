@@ -67,13 +67,14 @@
 .project-info__first-card-list::before {
   content: '';
   position: absolute;
-  top: -21px;
-  left: -45px;
-  width: 28%;
-  height: 115%;
+  top: 0;
+  left: 1px;
+  width: 7px;
+  height: 100%;
   background: url('../assets/img/svg/projectInfoBorderTurquoise.svg') no-repeat;
-  background-position: left;
-  background-size: 100% 100%;
+  box-shadow: 7px 0px 20px 0px #05E9F0;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
   z-index: 2;
 }
 
@@ -135,13 +136,14 @@
 .project-info__second-card-list::before {
   content: '';
   position: absolute;
-  top: -21px;
-  right: -62px;
-  width: 28%;
-  height: 115%;
+  top: 0;
+  right: -2px;
+  width: 7px;
+  height: 100%;
   background: url('../assets/img/svg/projectInfoBorderGreen.svg') no-repeat;
-  background-position: left;
-  background-size: 100% 100%;
+  box-shadow: 7px 0px 20px 0px #17E6A1;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
   z-index: 2;
 }
 
@@ -208,16 +210,22 @@
   margin-right: 26px;
 }
 
-.project-info__item:nth-of-type(1)::before {
+.project-info__item::before {
   content: '';
   position: absolute;
-  top: -39px;
-  left: -35px;
-  width: 28%;
-  height: 340px;
+  top: 0;
+  left: 1px;
+  width: 7px;
+  height: 100%;
   background: url('../assets/img/svg/projectInfoBorderYellow.svg') no-repeat;
-  background-position: left;
-  background-size: 100% 100%;
+  box-shadow: 13.5px 0px 38.56px 0px #F8E74E;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.project-info__item:nth-of-type(2)::before,
+.project-info__item:nth-of-type(3)::before {
+  left: 0;
 }
 
 .project-info__item:nth-of-type(1)::after {
@@ -248,17 +256,6 @@
   padding: 26px 0px 26px 0;
 }
 
-.project-info__item:nth-of-type(2)::before {
-  content: '';
-  position: absolute;
-  top: -39px;
-  left: -35px;
-  width: 28%;
-  height: 340px;
-  background: url('../assets/img/svg/projectInfoBorderYellow.svg') no-repeat;
-  background-position: left;
-  background-size: 100% 100%;
-}
 
 .project-info__item:nth-of-type(2) img {
   margin-bottom: 25px;
@@ -276,19 +273,6 @@
   position: relative;
   padding: 16px 0 0 0px;
 }
-
-.project-info__item:nth-of-type(3)::before {
-  content: '';
-  position: absolute;
-  top: -39px;
-  left: -35px;
-  width: 28%;
-  height: 340px;
-  background: url('../assets/img/svg/projectInfoBorderYellow.svg') no-repeat;
-  background-position: left;
-  background-size: 100% 100%;
-}
-
 
 .project-info__item:nth-of-type(3) img {
   margin-bottom: 14px;

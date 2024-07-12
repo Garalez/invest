@@ -1,0 +1,35 @@
+.footer {
+  padding: 0 26px 0 29px;
+}
+
+.footer__wrapper {
+  background: url('../assets/img/footerBG.jfif') no-repeat center center/cover;
+  border-radius: 10px;
+  padding: 40px 105px 40px 0;
+}
+
+.footer__container {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer__container::before {
+  content: '';
+  position: absolute;
+  top: 4px;
+  left: 104px;
+  width: 91.52px;
+  height: 27.3px;
+  background: url('../assets/img/svg/headerLogo.svg') no-repeat center center/cover;
+}
+
+.footer__text {
+  max-width: 235px;
+  font-family: Geologica;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 17.5px;
+  text-align: right;
+}
+

@@ -3,13 +3,13 @@
 @import url('./project-info.css');
 @import url('./investments.css');
 @import url('./projects-invested.css');
+@import url('./participation.css');
+@import url('./footer.css');
 
 @font-face {
   font-family: Bicubik;
   src: url('../assets/fonts/bicubik/bicubik.woff') format('woff'),
     url('../assets/fonts/bicubik/bicubik.woff2') format('woff2');
-  /* src: url('../fonts/bicubik/bicubik.woff') format('woff'),
-    url('../fonts/bicubik/bicubik.woff2') format('woff2'); */
     font-style: normal;
 }
 
@@ -82,7 +82,7 @@ body {
   padding: 0;
   background-color: #0C0C2A;
   color: #FFFFFF;
-  padding-bottom: 200px;
+  padding-bottom: 39px;
 }
 
 img {
