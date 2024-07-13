@@ -402,6 +402,10 @@
 }
 
 @media (max-width: 590px) {
+  .project-info {
+    margin-bottom: 45px;
+  }
+
   .project-info__wrapper {
     padding: 45px 0 0 0;
   }

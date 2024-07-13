@@ -6,7 +6,7 @@
 .investments__wrapper {
   background: url('../assets/img/headerBG.jfif') no-repeat center center/cover;
   border-radius: 15px;
-  padding: 84px 0 85px 115px;
+  padding: 84px 50px 85px 115px;
   overflow: hidden;
 }
 
@@ -29,7 +29,7 @@
 }
 
 .investments__item:nth-of-type(1) {
-  padding: 34px 0 35px 37px;
+  padding: 34px 140px 35px 37px;
   margin-bottom: 22px;
 }
 
@@ -41,7 +41,8 @@
   width: 7px;
   height: 100%;
   background: url('../assets/img/svg/investmentsLeftBorder-1.svg') no-repeat;
-  box-shadow: 14.33px 0px 40.94px 0px #F8E74E;
+  background-size: cover;
+  box-shadow: 14.33px 0px 40.94px 0px #f8e74e;
   border-bottom-left-radius: 10px;
   border-top-left-radius: 10px;
 }
@@ -54,12 +55,12 @@
   width: 17px;
   height: 100%;
   background: url('../assets/img/svg/investmentsRightBorder-1.svg') no-repeat;
-  box-shadow: -14.33px 0px 40.94px 0px #F8E74E;
-
+  background-size: cover;
+  box-shadow: -14.33px 0px 40.94px 0px #f8e74e;
 }
 
 .investments__item:nth-of-type(2) {
-  padding: 36px 0 42px 37px;
+  padding: 36px 140px 42px 37px;
   margin-bottom: 22px;
 }
 
@@ -71,7 +72,8 @@
   width: 7px;
   height: 100%;
   background: url('../assets/img/svg/investmentsLeftBorder-1.svg') no-repeat;
-  box-shadow: 14.33px 0px 40.94px 0px #F8E74E;
+  background-size: cover;
+  box-shadow: 14.33px 0px 40.94px 0px #f8e74e;
   border-bottom-left-radius: 10px;
   border-top-left-radius: 10px;
 }
@@ -84,7 +86,8 @@
   width: 17px;
   height: 100%;
   background: url('../assets/img/svg/investmentsRightBorder-1.svg') no-repeat;
-  box-shadow: -14.33px 0px 40.94px 0px #F8E74E;
+  background-size: cover;
+  box-shadow: -14.33px 0px 40.94px 0px #f8e74e;
   border-bottom-right-radius: 4px;
   border-top-right-radius: 4px;
 }
@@ -100,10 +103,10 @@
   top: 0;
   left: 0;
   width: 7px;
-  height: 150%;
+  height: 137%;
   background: url('../assets/img/svg/investmentsLeftBorder-3.svg') no-repeat;
   background-size: cover;
-  box-shadow: 14.33px 0px 40.94px 0px #F8E74E;
+  box-shadow: 14.33px 0px 40.94px 0px #f8e74e;
   border-bottom-left-radius: 10px;
   border-top-left-radius: 10px;
 }
@@ -114,10 +117,10 @@
   top: 0px;
   right: 0;
   width: 17px;
-  height: 150%;
+  height: 137%;
   background: url('../assets/img/svg/investmentsRightBorder-3.svg') no-repeat;
   background-size: cover;
-  box-shadow: -14.33px 0px 40.94px 0px #F8E74E;
+  box-shadow: -14.33px 0px 40.94px 0px #f8e74e;
   border-top-right-radius: 7px;
 }
 
@@ -125,9 +128,8 @@
   margin-bottom: 22px;
 }
 
-
 .investments__item:nth-of-type(5) {
-  padding: 37px 0 30px 37px;
+  padding: 37px 140px 30px 37px;
   margin-bottom: 22px;
 }
 
@@ -139,7 +141,8 @@
   width: 7px;
   height: 100%;
   background: url('../assets/img/svg/investmentsLeftBorder-4.svg') no-repeat;
-  box-shadow: 14.33px 0px 40.94px 0px #F8E74E;
+  background-size: cover;
+  box-shadow: 14.33px 0px 40.94px 0px #f8e74e;
   border-bottom-left-radius: 10px;
   border-top-left-radius: 10px;
 }
@@ -152,13 +155,14 @@
   width: 17px;
   height: 100%;
   background: url('../assets/img/svg/investmentsRightBorder-4.svg') no-repeat;
-  box-shadow: -14.33px 0px 40.94px 0px #F8E74E;
+  background-size: cover;
+  box-shadow: -14.33px 0px 40.94px 0px #f8e74e;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
 }
 
 .investments__item:nth-of-type(6) {
-  padding: 27px 0 33px 37px;
+  padding: 27px 140px 33px 37px;
   margin-bottom: 0;
 }
 
@@ -170,7 +174,8 @@
   width: 7px;
   height: 100%;
   background: url('../assets/img/svg/investmentsLeftBorder-5.svg') no-repeat;
-  box-shadow: 14.33px 0px 40.94px 0px #F8E74E;
+  background-size: cover;
+  box-shadow: 14.33px 0px 40.94px 0px #f8e74e;
   border-bottom-left-radius: 10px;
   border-top-left-radius: 10px;
 }
@@ -183,21 +188,22 @@
   width: 17px;
   height: 100%;
   background: url('../assets/img/svg/investmentsRightBorder-5.svg') no-repeat;
-  box-shadow: -14.33px 0px 40.94px 0px #F8E74E;
+  background-size: cover;
+  box-shadow: -14.33px 0px 40.94px 0px #f8e74e;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
 }
 
 .investments__third-item-wrapper {
   display: flex;
-  padding: 26px 0 26px 37px;
+  padding: 26px 140px 26px 37px;
 }
 
 .investments__asterisk-wrapper {
   width: 100%;
-  padding: 21px 0 21px 79px;
+  padding: 21px 80px 21px 79px;
   display: flex;
-  background-color: #F8E74E;
+  background-color: #f8e74e;
   color: #000000;
 }
 
@@ -239,7 +245,6 @@
   line-height: 17.6px;
 }
 
-
 .investments__qualification-heading {
   max-width: 500px;
   margin-bottom: 10px;
@@ -271,7 +276,7 @@
   margin-right: 20px;
 }
 
-.investments__item:nth-of-type(5) .investments__numbering, 
+.investments__item:nth-of-type(5) .investments__numbering,
 .investments__item:nth-of-type(6) .investments__numbering {
   margin-right: 21px;
 }
@@ -328,4 +333,274 @@
   width: 145px;
   height: 145px;
   background: url('../assets/img/svg/investmentsShield.svg') no-repeat;
+}
+
+.investments__heading-desktop,
+.investments__qualification-text-desktop,
+.investments__chat-text-desktop,
+.investments__communication-heading-desktop,
+.investments__communication-text-desktop,
+.investments__asterisk-desktop,
+.investments__help-text-desktop {
+  display: block;
+}
+
+.investments__heading-mobile,
+.investments__qualification-text-mobile,
+.investments__chat-text-mobile,
+.investments__communication-heading-mobile,
+.investments__communication-text-mobile,
+.investments__asterisk-mobile,
+.investments__help-text-mobile {
+  display: none;
+}
+
+@media (max-width: 1340px) {
+  .investments__wrapper {
+    padding: 84px 50px 85px 70px;
+  }
+}
+
+@media (max-width: 680px) {
+  .investments__wrapper {
+    padding: 84px 50px 85px 50px;
+  }
+
+  .investments__qualification-wrapper::after {
+    right: 5px;
+  }
+
+  .investments__chat-text::after {
+    right: -10px;
+  }
+
+  .investments__communication-wrapper::after {
+    right: 10px;
+  }
+
+  .investments__help-wrapper::after {
+    right: 25px;
+  }
+
+  .investments__refund-wrapper::after {
+    right: -5px;
+  }
+}
+
+@media (max-width: 590px) {
+  .investments {
+    padding: 0 6px 0 7px;
+    margin-bottom: 55px;
+  }
+
+  .investments__wrapper {
+    padding: 45px 0 0 30px;
+    background-position: top;
+    background-size: auto;
+  }
+
+  .investments__container {
+    margin: 0 auto;
+    max-width: 390px;
+  }
+
+  .investments__heading {
+    margin-bottom: 27px;
+    font-size: 20px;
+    line-height: 22.12px;
+  }
+
+  .investments__numbering,
+  .investments__qualification-heading,
+  .investments__chat-text,
+  .investments__communication-heading,
+  .investments__help-heading,
+  .investments__refund-heading {
+    font-size: 14px;
+    line-height: 15px;
+  }
+
+  .investments__qualification-text,
+  .investments__communication-text,
+  .investments__asterisk,
+  .investments__help-text,
+  .investments__refund-text {
+    font-size: 15px;
+    line-height: 17px;
+  }
+
+  .investments__item,
+  .investments__third-item-wrapper {
+    flex-direction: column;
+  }
+
+  .investments__item:nth-of-type(1) {
+    max-width: 320px;
+    padding: 14px 0 103px 25px;
+    margin-bottom: 15px;
+  }
+
+  .investments__item:nth-of-type(1) .investments__numbering,
+  .investments__item:nth-of-type(2) .investments__numbering,
+  .investments__item:nth-of-type(5) .investments__numbering,
+  .investments__item:nth-of-type(6) .investments__numbering {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .investments__item:nth-of-type(3) .investments__numbering {
+    margin-right: 0;
+    margin-bottom: 13px;
+  }
+
+  .investments__qualification-heading {
+    max-width: 225px;
+    margin-bottom: 12px;
+  }
+
+  .investments__item:nth-of-type(1)::before,
+  .investments__item:nth-of-type(2)::before {
+    background: url('../assets/img/svg/investmentsLeftBorderMobile-1.svg') no-repeat;
+  }
+
+  .investments__item:nth-of-type(3)::before {
+    height: 153%;
+    background: url('../assets/img/svg/investmentsLeftBorderMobile-3.svg') no-repeat;
+    background-size: cover;
+  }
+
+  .investments__item:nth-of-type(1)::after,
+  .investments__item:nth-of-type(2)::after,
+  .investments__item:nth-of-type(3)::after,
+  .investments__item:nth-of-type(5)::after,
+  .investments__item:nth-of-type(6)::after {
+    display: none;
+  }
+
+  .investments__qualification-wrapper::after {
+    top: auto;
+    bottom: 7px;
+    right: 0;
+    background: url('../assets/img/investmentsUserMobile.png') no-repeat;
+    background-position: right bottom;
+  }
+
+  .investments__chat-text::after {
+    top: auto;
+    bottom: 18px;
+    right: 4px;
+    background-position: right bottom;
+  }
+
+  .investments__communication-wrapper::after {
+    top: auto;
+    bottom: 14px;
+    right: 11px;
+    background-position: right bottom;
+  }
+
+  .investments__item:nth-of-type(2) {
+    max-width: 320px;
+    padding: 14px 0 151px 25px;
+    margin-bottom: 15px;
+  }
+
+  .investments__item:nth-of-type(3),
+  .investments__item:nth-of-type(4) {
+    max-width: 320px;
+  }
+
+  .investments__item:nth-of-type(4) {
+    background-color: transparent;
+    padding-left: 7px;
+    margin-bottom: 15px;
+  }
+
+  .investments__item:nth-of-type(5) {
+    max-width: 320px;
+    padding: 14px 0 93px 25px;
+    margin-bottom: 15px;
+  }
+
+  .investments__item:nth-of-type(6) {
+    max-width: 320px;
+    padding: 14px 0 126px 25px;
+    margin-bottom: 15px;
+  }
+
+  .investments__item:nth-of-type(5)::before {
+    background: url('../assets/img/svg/investmentsLeftBorderMobile-4.svg') no-repeat;
+    background-size: cover;
+  }
+
+  .investments__third-item-wrapper {
+    padding: 14px 0 67px 25px;
+  }
+
+  .investments__communication-heading {
+    margin-bottom: 15px;
+  }
+
+  .investments__asterisk-wrapper {
+    padding: 37px 0 19px 19px;
+  }
+
+  .investments__asterisk::before {
+    top: -19px;
+    left: -1px;
+  }
+
+  .investments__help-heading {
+    margin-bottom: 9px;
+}
+
+.investments__help-wrapper::after {
+    top: auto;
+    bottom: 16px;
+    right: 14px;
+    background-position: bottom right;
+}
+
+.investments__refund-heading {
+  max-width: 220px;
+  margin-bottom: 11px;
+}
+
+.investments__refund-wrapper::after {
+  top: auto;
+  bottom: 7px;
+  right: -9px;
+  background-position: bottom right;
+}
+
+.investments__item:nth-of-type(6)::before {
+  background: url('../assets/img/svg/investmentsLeftBorderMobile-5.svg') no-repeat;
+  background-size: cover;
+}
+
+  /* .investments__item:nth-of-type(3) {
+    max-width: 320px;
+    padding: 14px 0 151px 25px;
+    margin-bottom: 15px;
+  } */
+
+  .investments__heading-desktop,
+  .investments__qualification-text-desktop,
+  .investments__chat-text-desktop,
+  .investments__communication-heading-desktop,
+  .investments__communication-text-desktop,
+  .investments__asterisk-desktop,
+  .investments__help-text-desktop {
+    display: none;
+  }
+
+  .investments__heading-mobile,
+  .investments__qualification-text-mobile,
+  .investments__chat-text-mobile,
+  .investments__communication-heading-mobile,
+  .investments__communication-text-mobile,
+  .investments__asterisk-mobile,
+  .investments__help-text-mobile {
+    display: block;
+  }
 }
