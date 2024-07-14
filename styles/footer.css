@@ -33,3 +33,33 @@
   text-align: right;
 }
 
+@media (max-width: 590px) {
+  .footer {
+    padding: 0px 7px 0 6px;
+  }
+
+  .footer__container {
+    justify-content: flex-start;
+  }
+
+  .footer__container::before {
+    width: 58.75px;
+    height: 17.52px;
+    top: -33px;
+    left: 0px;
+  }
+
+  .footer__wrapper {
+    background-size: auto;
+    background-position: top;
+    padding: 59px 0 25px 30px;
+  }
+
+  .footer__text {
+    font-family: Geologica;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 15.4px;
+    text-align: left;
+  }
+}

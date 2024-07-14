@@ -8,7 +8,7 @@
   position: relative;
   background: url('../assets/img/projectsInvestedBG.jfif') no-repeat center center/cover;
   border-radius: 15px;
-  padding: 84px 0 50px 108px;
+  padding: 84px 0 68px 108px;
 }
 
 .projects-invested__wrapper::after {

@@ -207,6 +207,10 @@
   margin-bottom: 15px;
 }
 
+.introduction__item::before {
+  left: -1px;
+}
+
 .introduction__item:nth-of-type(1)::before {
   width: 5.94px;
 }
