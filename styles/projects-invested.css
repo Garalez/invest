@@ -437,7 +437,7 @@
   #projects-invested__cards-item-2 {
     width: 321px;
     height: 146px;
-    padding: 8px 0 0 20px;
+    padding: 6px 0 0 15px;
   }
 
   #projects-invested__cards-item-3 {
@@ -449,7 +449,7 @@
   #projects-invested__cards-item-4 {
     width: 321px;
     height: 146px;
-    padding: 8px 0 0 20px;
+    padding: 14px 0 0 19px;
   }
 
   #projects-invested__cards-item-5 {
@@ -469,15 +469,11 @@
   }
 
   #projects-invested__cards-item-image-2 {
-    width: 87px;
-    height: 24px;
     margin-bottom: 20px;
   }
 
   #projects-invested__cards-item-image-3 {
-    width: 81px;
-    height: 25px;
-    margin-bottom: 21px;
+    margin-bottom: 25px;
   }
 
   #projects-invested__cards-item-image-4 {
@@ -485,23 +481,22 @@
   }
 
   #projects-invested__cards-item-image-5 {
-    width: 65px;
-    height: 30px;
+    position: relative;
+    left: -6px;
+    top: -1px;
     margin-bottom: 17px;
   }
 
   #projects-invested__cards-item-image-6 {
-    width: 95px;
-    height: 25px;
+    position: relative;
+    left: -6px;
+    top: -1px;
     margin-bottom: 20px;
   }
 
   #projects-invested__cards-item-1-text-1,
   #projects-invested__cards-item-1-text-2,
   #projects-invested__cards-item-1-text-3,
-  #projects-invested__cards-item-2-text-1,
-  #projects-invested__cards-item-2-text-2,
-  #projects-invested__cards-item-2-text-3,
   #projects-invested__cards-item-3-text-1,
   #projects-invested__cards-item-3-text-2,
   #projects-invested__cards-item-3-text-3,
@@ -515,6 +510,13 @@
   #projects-invested__cards-item-6-text-2,
   #projects-invested__cards-item-6-text-3 {
     padding-left: 25px;
+  }
+
+  
+  #projects-invested__cards-item-2-text-1,
+  #projects-invested__cards-item-2-text-2,
+  #projects-invested__cards-item-2-text-3 {
+    padding-left: 31px;
   }
 
   .projects-invested__cards-text {
@@ -542,8 +544,13 @@
     height: 18px;
   }
 
+  
+  #projects-invested__cards-item-2-text-1::before {
+    top: 0;
+    left: 4px;
+  }
+
   #projects-invested__cards-item-1-text-2::before,
-  #projects-invested__cards-item-2-text-2::before,
   #projects-invested__cards-item-3-text-2::before,
   #projects-invested__cards-item-4-text-2::before,
   #projects-invested__cards-item-5-text-2::before,
@@ -552,14 +559,24 @@
     left: -1px;
   }
 
+  
+  #projects-invested__cards-item-2-text-2::before {
+    top: 1px;
+    left: 5px;
+  }
+
   #projects-invested__cards-item-1-text-3::before,
-  #projects-invested__cards-item-2-text-3::before,
   #projects-invested__cards-item-3-text-3::before,
   #projects-invested__cards-item-4-text-3::before,
   #projects-invested__cards-item-5-text-3::before,
   #projects-invested__cards-item-6-text-3::before {
     top: 1px;
     left: -1px;
+  }
+
+  #projects-invested__cards-item-2-text-3::before {
+    top: 2px;
+    left: 5px;
   }
 
   .projects-invested__cards-item::before {
@@ -572,6 +589,19 @@
   .projects-invested__cards-item::after {
     width: 321px;
     top: 32px;
+  }
+
+  .projects-invested__cards-item:nth-of-type(3)::after {
+    top: 33px;
+  }
+
+  .projects-invested__cards-item:nth-of-type(4)::after,
+  .projects-invested__cards-item:nth-of-type(6)::after {
+    top: 34px;
+  }
+
+  .projects-invested__cards-item:nth-of-type(5)::after {
+    top: 33px;
   }
 
   .projects-invested__subheading-desktop,
