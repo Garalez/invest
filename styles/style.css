@@ -1,6 +1,7 @@
 @import url('./header.css');
 @import url('./introduction.css');
 @import url('./project-info.css');
+@import url('./difference.css');
 @import url('./investments.css');
 @import url('./projects-invested.css');
 @import url('./participation.css');
@@ -132,5 +133,21 @@ fieldset {
 
 .text-selection {
   color: #F8E74E;
-  ;
 }
+
+.text-selection-green {
+  color: #15D79C;
+}
+
+.text-selection-purple {
+  color: #956FF6;
+}
+
+.text-selection-blue {
+  color: #05E9F0;
+}
+
+.text-selection-sand {
+  color: rgba(248, 231, 78, 0.65);
+}
+

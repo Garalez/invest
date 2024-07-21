@@ -379,6 +379,7 @@
 @media (max-width: 590px) {
   .projects-invested {
     padding: 0 6px 0 8px;
+    margin-bottom: 44px;
   }
 
   .projects-invested__wrapper {

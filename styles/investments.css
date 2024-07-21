@@ -196,12 +196,12 @@
 
 .investments__third-item-wrapper {
   display: flex;
-  padding: 26px 140px 26px 37px;
+  padding: 26px 140px 25px 37px;
 }
 
 .investments__asterisk-wrapper {
   width: 100%;
-  padding: 21px 80px 21px 79px;
+  padding: 21px 80px 22px 79px;
   display: flex;
   background-color: #f8e74e;
   color: #000000;
@@ -282,7 +282,7 @@
 }
 
 .investments__numbering {
-  margin-right: 19px;
+  margin-right: 29px;
 }
 
 .investments__qualification-wrapper::after {
@@ -390,7 +390,7 @@
 @media (max-width: 590px) {
   .investments {
     padding: 0 6px 0 7px;
-    margin-bottom: 55px;
+    margin-bottom: 61px;
   }
 
   .investments__wrapper {
@@ -552,37 +552,31 @@
 
   .investments__help-heading {
     margin-bottom: 9px;
-}
+  }
 
-.investments__help-wrapper::after {
+  .investments__help-wrapper::after {
     top: auto;
     bottom: 16px;
     right: 14px;
     background-position: bottom right;
-}
+  }
 
-.investments__refund-heading {
-  max-width: 220px;
-  margin-bottom: 11px;
-}
+  .investments__refund-heading {
+    max-width: 220px;
+    margin-bottom: 11px;
+  }
 
-.investments__refund-wrapper::after {
-  top: auto;
-  bottom: 7px;
-  right: -9px;
-  background-position: bottom right;
-}
+  .investments__refund-wrapper::after {
+    top: auto;
+    bottom: 7px;
+    right: -9px;
+    background-position: bottom right;
+  }
 
-.investments__item:nth-of-type(6)::before {
-  background: url('../assets/img/svg/investmentsLeftBorderMobile-5.svg') no-repeat;
-  background-size: cover;
-}
-
-  /* .investments__item:nth-of-type(3) {
-    max-width: 320px;
-    padding: 14px 0 151px 25px;
-    margin-bottom: 15px;
-  } */
+  .investments__item:nth-of-type(6)::before {
+    background: url('../assets/img/svg/investmentsLeftBorderMobile-5.svg') no-repeat;
+    background-size: cover;
+  }
 
   .investments__heading-desktop,
   .investments__qualification-text-desktop,

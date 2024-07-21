@@ -183,21 +183,21 @@
 }
 
 .participation__item:nth-of-type(1) {
-  padding: 104px 30px 27px 30px;
+  padding: 90px 30px 21px 30px;
   margin-right: 27px;
   flex-grow: 1;
   max-width: 374px;
 }
 
 .participation__item:nth-of-type(2) {
-  padding: 104px 30px 27px 34px;
+  padding: 90px 30px 27px 34px;
   margin-right: 27px;
   flex-grow: 1;
   max-width: 373px;
 }
 
 .participation__item:nth-of-type(3) {
-  padding: 104px 30px 26px 33px;
+  padding: 90px 30px 26px 32px;
   flex-grow: 1;
   max-width: 373px;
 }
@@ -223,29 +223,53 @@
 }
 
 .participation__qr-wrapper img {
-  margin-right: 52px;
+  margin-right: 35px;
 }
 
 .participation__qr-text-wrapper {
-  padding-top: 41px;
+  padding-top: 12px;
 }
 
 .participation__qr-text {
-  max-width: 285px;
-  margin-bottom: 31px;
+  margin-bottom: 16px;
   font-family: Geologica;
   font-size: 18px;
   font-weight: 200;
   line-height: 19.8px;
 }
 
-.participation__qr-text span {
+.participation__custom-text-style {
+  font-family: Geologica;
+  font-size: 18px;
   font-weight: 600;
+  line-height: 19.8px;
+  color: #f8e74e;
 }
 
-.participation__qr-text-link {
-  color: #f8e74e;
-  text-decoration: underline;
+.participation__qr-link {
+  display: block;
+  position: relative;
+  width: fit-content;
+  margin-bottom: 14px;
+  padding: 14px 14px 14px 37px;
+  background-color: #f8e74e;
+  font-family: Geologica;
+  font-size: 18px;
+  font-weight: 250;
+  line-height: 18px;
+  color: #000000;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.participation__qr-link::before {
+  content: '';
+  position: absolute;
+  top: 14px;
+  left: 15px;
+  width: 17px;
+  height: 17px;
+  background: url('../assets/img/svg/participationFingerPrint.svg') no-repeat center center/cover;
 }
 
 .participation__qr-text-farewell {
@@ -269,20 +293,20 @@
   display: none;
 }
 
-@media (max-width: 1150px) {
+@media (max-width: 1200px) {
   .participation__wrapper::after {
     background-position: right bottom;
     right: -90px;
   }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1050px) {
   .participation__wrapper {
     padding: 74px 40px 104px 70px;
   }
 }
 
-@media (max-width: 960px) {
+@media (max-width: 1000px) {
   .participation__wrapper {
     padding: 74px 40px 326px 70px;
   }
@@ -330,6 +354,11 @@
     width: 374px;
     margin-inline: 0;
   }
+
+
+  .participation__qr-wrapper {
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 700px) {
@@ -344,7 +373,7 @@
   }
 
   .participation__wrapper {
-    padding: 45px 0 321px 30px;
+    padding: 45px 0 272px 30px;
   }
 
   .participation__wrapper::after {
@@ -385,23 +414,39 @@
   .participation__footer-text {
     margin-bottom: 26px;
     font-size: 16px;
-    line-height: 17.7px;
+    line-height: 18px;
   }
 
   .participation__qr-text-wrapper {
-    padding-top: 38px;
+    padding-top: 14px;
   }
 
   .participation__qr-text {
-    max-width: 189px;
-    font-size: 12px;
-    font-weight: 200;
-    line-height: 13.2px;
+    max-width: 300px;
+    margin-bottom: 19px;
+    font-family: Geologica;
+    font-size: 15px;
+    font-weight: 250;
+    line-height: 16.9px;
+  }
+
+  .participation__custom-text-style {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 16.5px;
+  }
+
+  .participation__qr-link {
+    padding: 14px 15px 17px 37px;
+    margin-bottom: 18px;
+    font-size: 14px;
+    font-weight: 250;
+    line-height: 14px;
   }
 
   .participation__qr-text-farewell {
-    font-size: 20px;
-    line-height: 22.12px;
+    font-size: 14px;
+    line-height: 15.48px;
   }
 
   .participation__subheading-cards-wrapper {
@@ -444,13 +489,13 @@
 
   .participation__list {
     max-width: 320px;
-    margin-bottom: 64px;
+    margin-bottom: 53px;
     gap: 15px;
   }
 
   .participation__item:nth-of-type(1) {
     width: 100%;
-    padding: 64px 30px 19px 25px;
+    padding: 64px 30px 15px 25px;
   }
 
   .participation__item:nth-of-type(2) {
@@ -490,12 +535,6 @@
 
   .participation__qr-wrapper img {
     margin-right: 24px;
-  }
-
-  .participation__qr-text-farewell {
-    position: relative;
-    top: 28px;
-    left: -139px;
   }
 
   .participation__heading-desktop,
