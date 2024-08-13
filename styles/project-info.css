@@ -59,6 +59,8 @@
 }
 
 .project-info__first-card-list {
+  width: 100%;
+  max-width: 405px;
   position: relative;
   padding: 22px 66px 23px 30px;
   background-color: #181a40;
@@ -128,6 +130,8 @@
 }
 
 .project-info__second-card-list {
+  width: 100%;
+  max-width: 405px;
   position: relative;
   padding: 22px 73px 23px 23px;
   background-color: #181a40;
@@ -201,6 +205,9 @@
 }
 
 .project-info__item {
+  width: 100%;
+  max-width: 374px;
+  padding-right: 23px;
   max-height: 342px;
   border-radius: 10px;
   background-color: rgba(66, 69, 126, 0.45);
@@ -265,6 +272,7 @@
 
 .project-info__item:nth-of-type(2) p {
   padding-left: 33px;
+  padding-right: 23px;
   font-family: Geologica;
   font-size: 16px;
   font-weight: 300;
@@ -282,6 +290,7 @@
 
 .project-info__item:nth-of-type(3) p {
   padding-left: 33px;
+  padding-right: 23px;
   font-family: Geologica;
   font-size: 16px;
   font-weight: 300;
@@ -427,7 +436,21 @@
     line-height: 22.12px;
   }
 
+  .en .project-info__heading {
+    max-width: 360px;
+    margin-bottom: 16px;
+    font-size: 20px;
+    line-height: 22.12px;
+  }
+
   .project-info__text {
+    margin-bottom: 20px;
+    font-size: 15px;
+    line-height: 16.5px;
+  }
+
+  .en .project-info__text {
+    max-width: 325px;
     margin-bottom: 20px;
     font-size: 15px;
     line-height: 16.5px;
@@ -450,6 +473,14 @@
   .project-info__first-card-item:nth-of-type(1) p,
   .project-info__second-card-item:nth-of-type(1) p {
     max-width: 170px;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+  }
+
+  .en .project-info__first-card-item:nth-of-type(1) p,
+  .en .project-info__second-card-item:nth-of-type(1) p {
+    max-width: none;
     font-size: 16px;
     line-height: 16px;
     letter-spacing: 0.04em;
@@ -514,7 +545,15 @@
   }
 
   .project-info__first-card-list {
+    width: 100%;
+    max-width: 320px;
     padding: 18px 85px 28px 25px;
+  }
+
+  .en .project-info__first-card-list {
+    width: 100%;
+    max-width: 320px;
+    padding: 18px 65px 28px 25px;
   }
 
   .project-info__first-card-list::before,
@@ -528,6 +567,8 @@
   }
 
   .project-info__second-card-list {
+    width: 100%;
+    max-width: 320px;
     padding: 18px 44px 27px 25px;
   }
 
@@ -562,6 +603,13 @@
     backdrop-filter: blur(16px);
   }
 
+  .en .project-info__item:nth-of-type(1),
+  .en .project-info__item:nth-of-type(2),
+  .en .project-info__item:nth-of-type(3) {
+    width: 100%;
+    max-width: 320px;
+  }
+
   .project-info__item:nth-of-type(2) {
     width: auto;
     display: block;
@@ -592,6 +640,7 @@
   }
 
   .project-info__item:nth-of-type(3) p {
+    padding-right: 20px;
     padding-left: 25px;
     font-size: 16px;
     line-height: 18.1px;

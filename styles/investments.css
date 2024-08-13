@@ -19,6 +19,15 @@
   line-height: 33.18px;
 }
 
+.en .investments__heading {
+  max-width: 840px;
+  margin-bottom: 30px;
+  font-family: Wadik;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 33.18px;
+}
+
 .investments__item {
   position: relative;
   display: flex;
@@ -250,6 +259,11 @@
   margin-bottom: 10px;
 }
 
+.en .investments__qualification-heading {
+  max-width: 480px;
+  margin-bottom: 10px;
+}
+
 .investments__communication-heading {
   max-width: 835px;
   margin-bottom: 13px;
@@ -341,7 +355,8 @@
 .investments__communication-heading-desktop,
 .investments__communication-text-desktop,
 .investments__asterisk-desktop,
-.investments__help-text-desktop {
+.investments__help-text-desktop,
+.investments__qualification-heading-desktop {
   display: block;
 }
 
@@ -351,7 +366,8 @@
 .investments__communication-heading-mobile,
 .investments__communication-text-mobile,
 .investments__asterisk-mobile,
-.investments__help-text-mobile {
+.investments__help-text-mobile,
+.investments__qualification-heading-mobile {
   display: none;
 }
 
@@ -405,6 +421,12 @@
   }
 
   .investments__heading {
+    margin-bottom: 27px;
+    font-size: 20px;
+    line-height: 22.12px;
+  }
+
+  .en .investments__heading {
     margin-bottom: 27px;
     font-size: 20px;
     line-height: 22.12px;
@@ -578,13 +600,20 @@
     background-size: cover;
   }
 
+  .en .investments__communication-text-mobile {
+    max-width: 273px;
+    font-size: 15px;
+    line-height: 17px;
+  }
+
   .investments__heading-desktop,
   .investments__qualification-text-desktop,
   .investments__chat-text-desktop,
   .investments__communication-heading-desktop,
   .investments__communication-text-desktop,
   .investments__asterisk-desktop,
-  .investments__help-text-desktop {
+  .investments__help-text-desktop,
+  .investments__qualification-heading-desktop {
     display: none;
   }
 
@@ -594,7 +623,8 @@
   .investments__communication-heading-mobile,
   .investments__communication-text-mobile,
   .investments__asterisk-mobile,
-  .investments__help-text-mobile {
+  .investments__help-text-mobile,
+  .investments__qualification-heading-mobile {
     display: block;
   }
 }

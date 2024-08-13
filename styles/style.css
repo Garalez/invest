@@ -151,3 +151,9 @@ fieldset {
   color: rgba(248, 231, 78, 0.65);
 }
 
+@media (max-width: 590px) {
+  body {
+    padding-bottom: 13px;
+  }
+}
+
