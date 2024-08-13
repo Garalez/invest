@@ -388,6 +388,10 @@
     line-height: 19px;
   }
 
+  .difference__lower-heading-2 {
+    max-width: 280px;
+  }
+
   .difference__upper-subheading,
   .difference__lower-subheading {
     font-family: Geologica;
